@@ -1,11 +1,17 @@
 from django.shortcuts import render
-from .models import Equipos
+from .models import Devices
 # Create your views here.
 
-def index (request):
-    equipos= Equipos.objects.all
+def ITAssistant (request):
+    return render(
+        request,
+        'ITAssistant.html'
+    )
+
+def devices (request):
+    devices= Devices.objects.all
     return render(
         request, 
-        'index.html',
-        context= {'equipos':equipos}
+        'devices.html',
+        context= {'devices':devices}
     )

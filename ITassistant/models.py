@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-class Equipos(models.Model):
+class Devices(models.Model):
     Equipo= models.CharField(blank=False,null=True,max_length=40)
     Usuario = models.CharField(blank=False,null=True,max_length=40)
     Estado_usuario= models.CharField(blank=False,null=True,max_length=40)

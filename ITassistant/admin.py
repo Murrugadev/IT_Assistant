@@ -1,8 +1,8 @@
 from django.contrib import admin
-from .models import Equipos
+from .models import Devices
 # Register your models here.
 
-class EquiposAdmin(admin.ModelAdmin):
+class DevicesAdmin(admin.ModelAdmin):
     list_display=(
         'id',
         'Equipo',
@@ -30,4 +30,4 @@ class EquiposAdmin(admin.ModelAdmin):
         'Mascara_red'
     )
 
-admin.site.register(Equipos,EquiposAdmin)
+admin.site.register(Devices,DevicesAdmin)

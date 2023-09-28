@@ -9,6 +9,7 @@ django = "*"
 pylint = "*"
 pylint-django = "*"
 django-devserver = "*"
+requests = "*"
 
 [dev-packages]
 

@@ -1,9 +1,0 @@
-body{
-    background-image: url('/static/image/background.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.titulo_principal{
-    color: #FFFFFF;
-}
